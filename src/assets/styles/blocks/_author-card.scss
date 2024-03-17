@@ -1,0 +1,49 @@
+.author-card {
+    margin-top: 80px;
+    padding: 0 15px;
+
+    &__container {
+        max-width: 1150px;
+        text-align: center;
+        background-color: #FFFFFF;
+        filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08));
+        padding: 43px 0px;
+        border-radius: 8px;
+    }
+
+    &__profile {
+        margin-bottom: 15px;
+        filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.22));
+    }
+
+    &__name {
+        margin-bottom: 8px;
+    }
+
+    &__title {
+        color: var(--color-title-text);
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    &__info {
+        margin-bottom: 32px;
+    }
+
+    &__description {
+        color: var(--color-main-text);
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    &__link {
+        margin-right: 10px;
+        color: #9B9B9B;
+        
+        transition: all 0.3s ease-in-out;
+    }
+
+    &__link:hover {
+        color: #5c5c5c;
+    }
+}

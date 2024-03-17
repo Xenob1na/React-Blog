@@ -1,0 +1,35 @@
+.footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__link {
+        margin-right: 10px;
+        color: #9B9B9B;
+        
+        transition: all 0.3s ease-in-out;
+    }
+
+    &__link:hover {
+        color: #5c5c5c;
+    }
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: #9B9B9B;
+}
+
+@media (max-width: 500px) {
+    .footer__container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

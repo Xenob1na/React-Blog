@@ -1,0 +1,18 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btn-pagination {
+    color: white;
+    background: var(--color-main-text);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-pagination:hover {
+    background: var(--color-title-text);
+}

@@ -1,0 +1,9 @@
+.admin-header {
+    margin-top: 40px;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

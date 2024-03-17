@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.dashboard {
+    &__title {
+        color: var(--color-title-text);
+        font-size: clamp(1.75rem, 1.5278rem + 0.9877vw, 2.25rem);
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__btn-delete {
+        background: red;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        margin-right: 10px;
+
+        &:hover {
+            background: rgb(223, 0, 0);
+        }
+    }
+
+    &__btn-edit {
+        background: green;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background: rgb(1, 95, 1);
+        }
+    }
+    
+}

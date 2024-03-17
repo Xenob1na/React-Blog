@@ -1,0 +1,14 @@
+.loader {
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border:8px solid rgba(13, 71, 161, 0.6);
+    border-radius: 50%;
+    border-left-color:#0D47A1;
+    animation: loader 1.3s linear infinite;
+   }
+   @keyframes loader {
+    100% {
+     transform: rotate(360deg);
+    }
+   }

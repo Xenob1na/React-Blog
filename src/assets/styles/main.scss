@@ -1,0 +1,20 @@
+// global styles
+@import "./base/global";
+@import "./base/reset";
+@import "./base/vars";
+
+// blocks styles
+@import  "./blocks/header";
+@import "./blocks/search-input";
+@import "./blocks/mobile-nav";
+@import "./blocks/author-card";
+@import "./blocks/blog-card";
+@import "./blocks/blog-item";
+@import "./blocks/footer";
+@import "./blocks/loader";
+@import "./blocks/login";
+@import "./blocks/admin-header";
+@import "./blocks/create-post";
+@import "./blocks/dashboard";
+@import "./blocks/edit-dashboard";
+@import "./blocks/btn-pagination";
